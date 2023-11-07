@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css" rel="script" href="script.js" />
+  </head>
+  <body>
+    <h1>Quanto mais velho, mais chato fica</h1>
+    <main>
+      <form action="">
+        <p>
+          <label for="ageid">Escreva a sua idade:</label>
+          <input type="number" name="ageid" min="0" max="150" value="10" />
+        </p>
+
+        <p>
+          <label for="">Gênero:</label>
+          <input type="radio" name="genero" id="masculino" checked />
+          <label for="sexmas">Masculino</label>
+          <input type="radio" name="genero" id="feminino" />
+          <label for="feminino">Feminino</label>
+        </p>
+
+        <p>
+          <input type="button" value="Descubra o seu nível de chatice" onclick="verificar()" class="btn">
+        </p>
+        <div id="txt"></div>
+        <div>
+          <img id="imagem" src="" alt="" srcset="" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
