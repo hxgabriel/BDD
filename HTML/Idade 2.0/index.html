@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Descubra quem você é</h1>
+    <main>
+        <form action="">
+            <p>
+                <label for="iage">Informe sua idade:</label>
+                <input type="number" name="iage" id="iage" min="0" max="150" value="15">
+            </p>
+            <p>
+                <label for="">Sexo:</label>
+                <input type="radio" name="sex" id="sexmas" checked>
+                <label for="sexmas">Masculino</label>
+                <input type="radio" name="sex" id="sexfem">
+                <label for="sexfem">Feminino</label>
+            
+            </p>
+            <p>
+                <input type="button" value="Descubra sua fase" onclick="verificar()" class="btn">
+            </p>
+            <div id="txt"></div>
+            <div>
+                <img id="imagem" src="" alt="" srcset="">
+            </div>
+        </form>
+    </main>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
